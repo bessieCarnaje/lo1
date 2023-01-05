@@ -1,0 +1,128 @@
+.attribution { font-size: 11px; text-align: center; position: absolute; bottom: 10px; width:100%}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+      background: url('./images/pattern-background-desktop.svg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Red Hat Display', sans-serif;
+      color:#8a93a4;
+      font-size: 16;
+     
+    }
+
+.parent-div{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.center-div{
+
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+
+    display:block;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    width:30%;
+    height: 650px;
+    border-radius: 3%;
+    box-shadow: 10px 10px 5px 10px rgba(0,0,0,0.05);
+ }
+
+ .center-div-order{
+
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  margin: auto;
+  width: 80%;
+ }
+
+ 
+ .center-div-annual {
+  
+  position: relative;
+  left: 0;
+  right:0;
+  margin: auto;
+  display: flex;
+  background-color:#f8f9fe;
+  width:80%;
+  height:80px;
+  padding: 10px 10px 10px 10px;
+  align-items: center;
+  
+    border-radius: 10px;
+    
+ }
+
+ .center-div-annual-text {
+  position: relative;
+  margin-left: 30px;
+ }
+
+ .center-div-change {
+  position: absolute;
+  right:30px;
+  align-self:center;
+  font-weight:bold;
+}
+
+.center-div-change:hover {
+  color:hsl(228, 45%, 44%);
+}
+
+.center-div-annual-img {
+  align-self: center;
+  position: relative;
+  left: 20px;
+}
+
+.cancel-order {
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+  font-weight: bold;
+}
+
+.cancel-order:hover {
+  color:hsl(228, 45%, 44%);
+}
+
+ button {
+  background-color: #2f29cb;
+  color:white;
+  border-radius: 10px;
+  width: 80%;
+  height: 50px;
+  font-weight: bold;
+  font-size: medium;
+  border: none;
+  box-shadow: 0px 10px 10px 1px rgb(47,41,203,0.2);
+  
+ }
+
+ button:hover {
+ background-color: #746bf1;
+ }
+
+ label {
+  font-weight: bold;
+  color: #0f2239;
+ }
+ 
+ h2 {
+  color: #0f2239;
+ }
+ 
+
